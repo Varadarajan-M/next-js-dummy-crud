@@ -76,6 +76,9 @@
   padding-inline: 15px;
 }
 
+.date-radio-wrapper{
+align-items:baseline
+}
 
 
 @media screen and (max-width:400px) {
@@ -93,5 +96,13 @@
     .add-employee{
       width: 100%;
     }
+
+    .form-control,.form-control-radio{
+      flex-basis: 100%;
+    }
+
+    .date-radio-wrapper{
+      align-items:auto;
+      }
    
 }

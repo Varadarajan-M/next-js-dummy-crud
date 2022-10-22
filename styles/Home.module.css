@@ -3,14 +3,13 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  padding:40px;
+  padding: 40px;
   zoom:1.2;
 }
 
 .main{
   position: relative;
   max-width: 800px;
-  
 }
 
 .header{
@@ -65,7 +64,7 @@
   background: linear-gradient(45deg, #171b36, #020a26);
   color: #e3a2a2;
   height:100px;
-  padding-inline: 15px;
+  padding: 20px;
 }
 
 
@@ -85,7 +84,7 @@
 }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:750px) {
  
 
     .add-employee{

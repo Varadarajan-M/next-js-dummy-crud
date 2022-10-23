@@ -1,16 +1,6 @@
 import { connectDb } from '../db/connection';
 import Employee from '../models/employee';
 
-export const getAllEmployees = (req, res) => {
-	connectDb().then(async (_) => {
-		try {
-			const employees = await Employee.find({});
-			return res.status(200).json({ employees });
-		} catch (e) {
-			console.error(e.message);
-		}
-	});
-};
 
 export const addNewEmployee = (req, res) => {
 	connectDb().then(async (_) => {

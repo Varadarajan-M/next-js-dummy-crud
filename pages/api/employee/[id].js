@@ -6,7 +6,7 @@ const controllers = {
 
 export default async function handler(req, res) {
 	try {
-		return new Promise((resolve) => resolve(controllers[req.method](req, res)));
+		return new Promise((_) => controllers[req.method](req, res));
 	} catch (e) {
 		return e.message;
 	}
